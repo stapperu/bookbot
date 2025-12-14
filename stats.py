@@ -24,8 +24,6 @@ def count_characters(path):
 	count=len(new_dict)                          
 	return count
 
-# ch_dict - {} {"char":"a", "num":"23"}  }
-# mam ch_dict - {"char":[num],             }
 def order_list(path):
     new_dict = {}
     count=count_words(path)
